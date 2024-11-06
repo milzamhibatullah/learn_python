@@ -23,8 +23,11 @@ for name in words:
         words.remove(name)
         print(words)
 
-words.insert(0,'Jams')
+words.insert(0,'jams')
 print(words)
 
 words.pop(-1)
+print(words)
+
+words.sort()
 print(words)
