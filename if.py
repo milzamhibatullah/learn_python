@@ -11,7 +11,7 @@ else:
 print('enjoy your day')
 
 score = 101
-if score<100:
+if score<100 or True:
     print('perfect')
 else :
     print('keep up')
