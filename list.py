@@ -22,3 +22,9 @@ for name in words:
     if name.lower()=='hiihi' or name.lower()=='jams':
         words.remove(name)
         print(words)
+
+words.insert(0,'Jams')
+print(words)
+
+words.pop(-1)
+print(words)
