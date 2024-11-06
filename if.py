@@ -9,3 +9,9 @@ else:
     print('Good Morning')
 
 print('enjoy your day')
+
+score = 101
+if score<100:
+    print('perfect')
+else :
+    print('keep up')
