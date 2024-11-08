@@ -31,3 +31,26 @@ print(words)
 
 words.sort()
 print(words)
+
+numbers = [2,3,4,5,6,7]
+total=0
+sum1=sum(numbers)
+print(sum1)
+for number in  numbers:
+    total+=number
+
+print(total)
+
+#get max number
+max_number = max(numbers)
+min_number = min(numbers)
+print(max_number)
+print(min_number)
+
+max_bowl=0
+#using for
+for number in numbers:
+    if number>max_bowl:
+        max_bowl=number
+
+print(max_bowl)
